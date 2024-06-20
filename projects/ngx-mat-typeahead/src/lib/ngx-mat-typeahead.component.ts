@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'NgxMat-NgxMatTypeahead',
   template: `
     <p>
-      ngx-mat-typeahead works!
+      ngx-mat-typeahead works! !!!!   version 2
     </p>
   `,
   styles: ``
