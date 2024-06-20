@@ -3,6 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
+      "ActiveInfoData": [
+        "./dist/active-info-data"
+      ],
       "NgxMatTypeahead": [
         "./dist/ngx-mat-typeahead"
       ]

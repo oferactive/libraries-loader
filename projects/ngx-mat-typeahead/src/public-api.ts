@@ -4,3 +4,4 @@
 
 export * from './lib/ngx-mat-typeahead.service';
 export * from './lib/ngx-mat-typeahead.component';
+export * from './lib/ngx-mat-typeahead.module';

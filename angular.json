@@ -129,6 +129,39 @@
           }
         }
       }
+    },
+    "ActiveInfoData": {
+      "projectType": "library",
+      "root": "projects/active-info-data",
+      "sourceRoot": "projects/active-info-data/src",
+      "prefix": "aidata",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/active-info-data/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/active-info-data/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/active-info-data/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/active-info-data/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }
