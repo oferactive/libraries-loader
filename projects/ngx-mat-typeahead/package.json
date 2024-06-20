@@ -1,6 +1,17 @@
 {
-  "name": "ngx-mat-typeahead",
+  "name": "ai-ngx-mat-typeahead",
   "version": "0.0.1",
+  "description":"A simple typeahead directive to be used with Angular Material input and matAutocomplete component.",
+  "author": "Ofer (ofer@activeinfo.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oferactive/libraries-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oferactive/libraries-loader"
+  },
+  "homepage": "https://github.com/oferactive/libraries-loader",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
